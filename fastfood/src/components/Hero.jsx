@@ -3,15 +3,15 @@ import React from 'react'
 export const Hero = () => {
   return (
     <div className='p-4 mx-auto max-w-[1640px]'>
-        <div className='max-h-[500px]'>
+        <div className='max-h-[500px] relative' >
             {/* overlay */}
-            <div>
-                <h1> The <span>Best</span> </h1>
-                <h1> Foods <span>Delivered</span> </h1>
+            <div className='absolute flex flex-col justify-center w-full h-full text-gray-200 max-h-[500px] bg-black/40'>
+                <h1 className='px-4 text-4xl sm:text-5xl ms:text-6xl lg:text-7xl font-bold'> The <span className='text-orange-300'>Best</span> </h1>
+                <h1 className='px-4 text-4xl sm:text-5xl ms:text-6xl lg:text-7xl font-bold'> Foods <span className='text-orange-300'>Delivered</span> </h1>
                
             </div>
-            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="" />
+            <img className='w-full max-h-[500px] object-cover' src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="/" />
         </div>
     </div>
   )
