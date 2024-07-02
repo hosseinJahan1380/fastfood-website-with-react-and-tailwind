@@ -39,14 +39,14 @@ const Navbar = () => {
       </button>
 
       {/* mobile menu */}
-      <div className={nav ? 'top-0 left-0 bg-black/60 h-screen w-full fixed z-10 duration-500' 
+      <div className={nav ? 'top-0 left-0 bg-black/60 h-screen w-full fixed z-10 duration-100' 
         : 'hidden'}>
 
       </div>
 
       {/* side drawer menu */}
-      <div className={nav ?'h-screen w-[300px] top-0 left-0 fixed bg-white z-20 duratoin-500' 
-        : 'h-screen w-[300px] top-0 left-[-100%] fixed bg-white z-20 duratoin-500'}>
+      <div className={nav ?'h-screen w-[300px] top-0 left-0 fixed bg-white z-20 duratoin-100' 
+        : 'h-screen w-[300px] top-0 left-[-100%] fixed bg-white z-20 duratoin-100'}>
         <AiOutlineClose onClick={() => setNav(!nav)} size={30} className='absolute top-4 right-4 cursor-pointer'/>
         <h2 className='text-2xl p-4'>
           Best <span className='font-bold'>Eats</span>

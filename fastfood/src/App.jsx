@@ -4,6 +4,8 @@ import Food from './components/Food'
 import { Hero } from './components/Hero'
 import './App.css'
 import HeadLineCards from './components/HeadLineCards'
+import Category from './components/Category'
+
 
 function App() {
 
@@ -14,6 +16,7 @@ function App() {
       <Hero/>
       <HeadLineCards/>
       <Food/>
+      <Category/>
     </>
   )
 }
